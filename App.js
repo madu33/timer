@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
   },
   button:{
     borderRadius:100,
-    borderWidth:10,
+    borderWidth:12,
     borderColor:'#DAF7A6',
     width:screen.width/2,
     height:screen.width/2,
