@@ -1,4 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
+import React,{useState,useEffect} from 'react';
 import { Dimensions, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 const screen = Dimensions.get('window');
@@ -23,7 +24,7 @@ const styles = StyleSheet.create({
   button:{
     borderRadius:100,
     borderWidth:10,
-    borderColor:'#A52A2A',
+    borderColor:'#DAF7A6',
     width:screen.width/2,
     height:screen.width/2,
     alignItems:'center',
@@ -32,6 +33,6 @@ const styles = StyleSheet.create({
   buttonText:{
     fontSize:45,
     fontWeight:'bold',
-    color: '#800000',
+    color: '#DAF7A6',
   }
 });
